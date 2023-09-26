@@ -12,8 +12,11 @@ title: Wer bin ich?
 > organizes services with **Docker** <br />
 > uses **React**, **Django**, **CubeJS**, **GraphQL** to boost work <br />
 
-# Get in Touch
+# Get Inspired / Get in Touch
 
+<div class="links">
+    <a href="https://lenatech.github.io/cchknits/" target="_blank">cchknits</a>
+</div>
 <div class="links">
     <a href="https://lenatech.github.io/" target="_blank">GitHub</a>s
 </div>
