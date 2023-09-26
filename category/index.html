@@ -1,0 +1,13 @@
+---
+layout: default
+title: Category
+---
+{% capture categories %}
+  {% for category in site.categories %}
+    {{ category[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedcategories = categories | split:' ' | sort %}
+{% for category in sortedcategories %}
+    <a href="{{ site.baseurl }}/category/{{ category }}/">{{ category }}</a><br>
+{% endfor %}

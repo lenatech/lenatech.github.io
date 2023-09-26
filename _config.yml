@@ -1,0 +1,5 @@
+name: Chieh-Han Chen
+markdown: kramdown
+permalink: /:year/:month/:day/:title.html
+baseurl: https://lenatech.github.io
+google_analytics: UA-55440995-1

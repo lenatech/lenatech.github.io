@@ -1,0 +1,13 @@
+---
+layout: default
+title: tags
+---
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+{% for tag in sortedtags %}
+    <a href="{{ site.baseurl }}/tags/{{ tag }}/">{{ tag }}</a><br>
+{% endfor %}

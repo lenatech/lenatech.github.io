@@ -1,0 +1,31 @@
+<header class="site-header">
+  <div class="avatar">
+    <img
+      class="ich"
+      alt="Chieh-Han Chen"
+      src="https://avatars.githubusercontent.com/u/5935679?v=4"
+    />
+  </div>
+  <div class="container">
+    <nav>
+      <a
+        href="{{ site.baseurl }}"
+        class="{% if page.url == '/' %} active{% endif %}"
+      >
+        <div class="a-house"></div>
+      </a>
+      <a
+        href="{{ site.baseurl }}/category/blog"
+        class="{% if page.url == '/category/blog/' %} active{% endif %}"
+      >
+        <div class="a-page"></div>
+      </a>
+      <a
+        href="{{ site.baseurl }}/about"
+        class="{% if page.url == '/about/' %} active{% endif %}"
+      >
+        <div class="a-person"></div>
+      </a>
+    </nav>
+  </div>
+</header>
